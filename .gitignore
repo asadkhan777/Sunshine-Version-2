@@ -49,3 +49,11 @@ project.properties
 /*/*/production
 *~
 *.swp
+# ---------------
+#/build/
+#/.idea/
+#/gradle.properties
+#/Sunshine-Version-2.iml
+#/build.gradle
+#/local.properties
+#/gradle/
