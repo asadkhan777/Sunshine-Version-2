@@ -137,7 +137,7 @@ public class DetailFragment extends Fragment implements LoaderManager.LoaderCall
 
     private Intent createShareForecastIntent() {
         Intent shareIntent = new Intent(Intent.ACTION_SEND);
-        shareIntent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_WHEN_TASK_RESET);
+        shareIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         shareIntent.setType("text/plain");
         shareIntent.putExtra(Intent.EXTRA_TEXT, mForecast + FORECAST_SHARE_HASHTAG);
         return shareIntent;
