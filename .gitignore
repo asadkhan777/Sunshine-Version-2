@@ -38,7 +38,7 @@ project.properties
 
 # idea project files
 .idea/
-*.iml
+#*.iml
 *.ipr
 *.iws
 
